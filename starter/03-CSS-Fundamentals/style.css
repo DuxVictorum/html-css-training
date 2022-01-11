@@ -70,6 +70,22 @@ footer p {
   background-color: #f7f7f7;
 }
 
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(3) {
+  color: red;
+}
+
+article p:nth-of-type(2) {
+  color: red;
+}
+
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
