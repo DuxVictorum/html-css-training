@@ -1,15 +1,16 @@
-body {
-  color: red;
+* {
+  /* outline: 2px dashed orange; */
 }
 
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
+  color: red;
   font-family: sans-serif;
   color: #444;
+  /* border-top: 10px solid green; */
+}
+
+nav a:link {
+  font-size: 18px;
 }
 
 h1,
