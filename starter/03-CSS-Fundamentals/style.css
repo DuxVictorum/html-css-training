@@ -1,16 +1,40 @@
 * {
-  /* outline: 2px dashed orange; */
+  margin: 0;
+  padding: 0;
 }
 
 body {
   color: red;
   font-family: sans-serif;
   color: #444;
-  /* border-top: 10px solid green; */
 }
 
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+}
+
+nav {
+  font-size: 18px;
+}
 nav a:link {
   font-size: 18px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
 }
 
 h1,
@@ -27,10 +51,13 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -42,10 +69,21 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+ol,
+ul {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 /* descendant selector */
@@ -71,10 +109,6 @@ footer p {
   list-style: none;
 }
 
-.main-header {
-  background-color: #f7f7f7;
-}
-
 li:first-child {
   font-weight: bold;
 }
@@ -85,11 +119,6 @@ li:last-child {
 
 li:nth-child(even) {
   /* color: red; */
-}
-
-/* Misconception! Doesn't work this way... */
-article p:first-child {
-  color: red;
 }
 
 /* Styling links */
@@ -108,24 +137,4 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
-}
-
-/* Resolving Conflicts */
-/* #copyright {
-  color: red;
-}
-.copyright {
-  color: blue;
-}
-.text {
-  color: yellow;
-}
-footer p {
-  color: green;
-} */
-
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
 }
