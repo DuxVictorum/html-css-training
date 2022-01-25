@@ -9,10 +9,16 @@ body {
   color: #444;
 }
 
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  /* height: 80px; */
 }
 
 aside {
@@ -20,6 +26,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
+  width: 500px;
 }
 
 nav {
@@ -35,6 +42,11 @@ article {
 
 .post-header {
   margin-bottom: 40px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
 
 h1,
